@@ -25,7 +25,8 @@ import vtiger.GenericUtility.WebDriverUtility;
 public class CreateContactWithOrganisationTest extends BaseClass{
 	
 	
-	@Test
+	@Test 
+	
 	public void  CreateContactWithOrganisationTest() throws Throwable{
 
 	//read the data from excel sheet
