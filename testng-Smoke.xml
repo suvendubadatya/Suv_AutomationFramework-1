@@ -3,9 +3,12 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<exclude name="SmokeSuite"></exclude>
+			<include name="SmokeSuite"></include>
 		</run>
 	</groups>
+	<listeners>
+		<listener class-name="vtiger.GenericUtility.ListenerImplementationClass"></listener>
+		</listeners>
 	
   <test thread-count="5" name="Test">
     <classes>
