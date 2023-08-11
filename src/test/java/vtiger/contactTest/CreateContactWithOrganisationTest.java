@@ -1,13 +1,14 @@
 package vtiger.contactTest;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import vTigerObjectRepository.ContactInfoPage;
 import vTigerObjectRepository.ContactsPage;
 import vTigerObjectRepository.CreateNewContactPage;

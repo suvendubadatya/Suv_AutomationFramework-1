@@ -36,7 +36,6 @@ public class ContactWithOpp {
 			driver = new EdgeDriver();
 			
 			System.out.println(BROWSER+"---Browser launched");
-		
 		}
 		else
 		{
@@ -61,7 +60,7 @@ public class ContactWithOpp {
 				driver.findElement(By.name("potentialname")).sendKeys(ORGNAME);
 				
 				WebElement type = driver.findElement(By.name("related_to_type"));
-				wutil.handelDropdrop(type, CONTACTS);
+			//	wutil.handelDropdrop(type, CONTACTS);
 				
 		driver.findElement(By.xpath("//input[@title='Save [Alt+S]']")).click();
 		
